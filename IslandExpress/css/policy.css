@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*Start main section*/
+
+#basic {
+  height: 1414px;
+}
+
+#showcase {
+  background-color: #D3D3D3;
+  border: 2px solid #BDBDBD;
+	border-radius: 4px;
+  width: 1100px;
+  height: 1270px;
+  position: relative;
+  top: 112px;
+  right: 30px;
+  left: 120px;
+}
+#showcase h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.end {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 15px;
+}
+.text-area {
+  margin-left: 20px;
+}
+/*End main section*/

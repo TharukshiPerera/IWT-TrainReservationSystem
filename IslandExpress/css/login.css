@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#basic {
+	height: 1000px;
+    border-bottom: 25px solid #244C66;
+}
+#showcase {
+	height: 800px;
+}
+#visible {
+	position: relative;
+	height: 700px;
+	top: 120px;
+	background-color: #a2a2a2a8;
+	border: 2px solid #bdbdbd;
+	border-radius: 5px;
+	width: 75%;
+	left: 170px;
+}
+section h1 {
+	color: black;
+	font-size: 45px;
+	position: relative;
+	left: 280px;
+}
+form input {
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+	width: 600px;
+	height: 25px;
+	background: #c7bcbc;
+	margin-top: 20px;
+}
+.form {
+	position: relative;
+	top: 20px;
+	left: 190px;
+}
+.logBtn {
+	background: #0277bd;
+	height: 40px;
+	width: 100px;
+	border-radius: 4px;
+	position: relative;
+	left: 500px;
+	top: -20px;
+}
+form button:hover {
+	color:#cccccc;
+  font-weight:bold;
+	cursor: pointer;
+}
+form a {
+	text-decoration: none;
+}
+.forgot {
+	position: relative;
+	top: 30px;
+}

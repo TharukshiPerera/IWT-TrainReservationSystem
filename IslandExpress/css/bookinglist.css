@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*Start main section*/
+#basic {
+  height: 666px;
+}
+
+#showcase {
+  text-align: center;
+  background-color: #D3D3D3;
+  border: 2px solid #BDBDBD;
+	border-radius: 4px;
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  top: 120px;
+  right: 30px;
+  left: 195px;
+	display:inline-table;
+}
+form ul {
+	list-style: none;
+}
+section h1 {
+	position: relative;
+	left: 35px;
+}
+.listname {
+  float: left;
+	list-style: none;
+	font-size: 16px;
+	margin-bottom: 0px;
+	position: relative;
+	left: 158px;
+}
+.listmail {
+  text-align: center;
+	list-style: none;
+	font-size: 16px;
+	margin: auto;
+	padding: 0px;
+	position: relative;
+	left: 26px;
+}
+.name {
+  width: 300px;
+  height: 30px;
+	position: relative;
+	left: 8px;
+}
+.mail {
+  width: 300px;
+  height: 30px;
+	position: relative;
+	left: 8px;
+}
+.textArea {
+  width: 606px;
+  resize: vertical;
+  max-height: 50px;
+	position: relative;
+	left: 8px;
+}
+.texth4 {
+	position: relative;
+	right: -10px;
+}
+.sendButton, .cancelButton {
+	position: relative;
+	border: 2px solid #80dfff;
+	border-radius: 4px;
+	left: 8px;
+	padding-left: 5px;
+	margin-left: 40px;
+	width: 200px;
+}
+.inDiv {
+	text-align: center;
+}
+/*End main section*/
+
+/*Start booking section*/
+.mainbox {
+	background-color: #a2a2a2;
+	position: relative;
+	left: 9px;
+	top: 3px;
+	width: 98%;
+	height: 70px;
+	border-radius: 4px;
+}
+
+.box {
+	background-color: #a2a2a2;
+	width: 97%;
+	position: relative;
+	left: 15px;
+	top: 3px;
+	height: 60px;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+#mainbox {
+	font-size: 23px;
+	text-align: left;
+	width: 1000px;
+}
+#box {
+	font-size: 20px;
+	text-align: left;
+	width: 1000px
+}
+.confirm {
+	width: 200px;
+	height: 40px;
+	background: #de1628;
+	border: 0;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #000000;
+}
+.confirmbtn {
+	width: 200px;
+	height: 40px;
+	background: #0277BD;
+	border: 0;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #000000;
+}
+/*End booking section*/
+
+/*End of the footer*/
+
+/*Bootstrap break points
+
+Extra small (xl) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) {...}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) {...}
+
+Large (lg) devices (deesktops, 992px and up)
+@media (min-width: 992px) {...}
+
+Extra (xl) large devices (large desktop, 1200px and up)
+@media (min-width: 1200px) {...}
+*/

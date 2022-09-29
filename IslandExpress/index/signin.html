@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../java/signin.js" charset="utf-8"></script>
+    <title>Sign In</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+      <div id="branding">
+      <h1><span class="highlight">Island</span>Express</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">ContactUs</a></li>
+        <li><a href="signin.html"><button type="signIn" class="button_1">SignIn</button></a></li>
+        <li><a href="login.html"><button type="logIn" class="button_2">Login</button></a></li>
+      </ul>
+    </nav>
+    </div>
+    </header>
+<!--End Header-->
+
+<!--Start main section-->
+
+  <section id="basic">
+      <div id="visible">
+        <div class="container">
+        <h1>Welcome To Register</h1>
+        <form class="form" action="submit.html" method="get" onsubmit="return validateForm()">
+          <input class="box1" type="text" id="fname" placeholder="First Name ">
+          <p class="error"></p>
+          <input class="box2" type="text" class="lname" id="lname" placeholder="Last Name ">
+          <p class="error"></p>
+          <input class="box3" type="text" id="username" placeholder="User Name">
+          <p class="error"></p>
+          <input class="box4" type="text" class="lname" id="phone" placeholder="Phone Number">
+          <p class="error"></p>
+          <input class="box5" type="email" id="mail" placeholder="E-mail Address">
+          <p class="error"></p>
+          <input class="box6" type="email" id="mail2" placeholder="Re-enter E-mail Address">
+          <p class="error"></p>
+          <input class="box7" type="password" id="password" placeholder="Create Password">
+          <p class="error"></p>
+          <input class="box8" type="password" id="password2" placeholder="Re-enter Password">
+          <p class="error"></p> <br>
+          <input id="agreeBtn" type="radio" >I Agree to the
+            <a href="policy.html">Terms and Conditions </a> <br>
+              <button class="subBtn" type="submit" > Submit</button>
+          <p id="para">Already have an account ?<a href="login.html" > Log In </a></p>
+          <p id="para">Need  ?<a href="helps.html"> Help</a></p>
+        </form>
+      </div>
+      </div>
+  </section>
+
+<!--End main section-->
+
+<!--Start FOOTER-->
+<footer>
+  <section id="footer">
+    <div class="container">
+      <a href="#">info@islandexpress.com</a>
+      <a href="#">support@islandexpress.com</a>
+      <p1>+94 XX XXX XX XX</p1>
+      <div class="socialmedia">
+        <a href="www.facebook.comk">
+          <img src="../img/facebook.png"></a>
+        <a href="www.linkedin.com">
+          <img src="../img/linkedin.png"></a>
+        <a href="www.twitter.com">
+          <img src="../img/twitter.png"></a>
+        <a href="#">
+          <img src="../img/whatsapp.png"></a>
+      <div class="payment">
+        <img src="../img/payment.png"></a>
+      </div>
+      </div>
+      <p>Copyright 2019 All Rights Reserved.</p>
+    </div>
+  </section>
+</footer>
+  </body>
+</html>

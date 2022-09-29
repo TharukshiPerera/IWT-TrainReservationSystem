@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*JAVA Wrong input */
+.wrong-input {
+	border: 1px solid red;
+	animation: shake 0.5s;
+	animation-iteration-count: 2;
+}
+/*E-nd of JAVA Wrong input */
+
+#basic {
+	height: 1040px;
+	border-bottom: 25px solid #244C66;
+}
+#agreeBtn {
+    width: 13px;
+    position: relative;
+    top: 7px;	
+}
+section h1 {
+	color: black;
+	font-size: 45px;
+	position: relative;
+	left: 192px;
+}
+.form {
+	position: relative;
+	top: 20px;
+	left: 105px;
+}
+form p {
+	color: red;
+	font-size: 12px;
+}
+.subBtn {
+	background: #0277bd;
+	height: 40px;
+	width: 100px;
+	border-radius: 4px;
+	position: relative;
+	left: 500px;
+	top: -25px;
+}
+form button:hover {
+	color:#cccccc;
+  font-weight:bold;
+	cursor: pointer;
+}
+form input {
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+	width: 600px;
+	height: 25px;
+}
+form p {
+	color: red;
+}
+form a {
+	text-decoration: none;
+}
+#visible {
+    background-color: #a2a2a2a8;
+    height: auto;
+    top: 119px;
+    border: 2px solid #bdbdbd;
+    border-radius: 4px;
+    width: 68%;
+    position: relative;
+    left: 197px;
+    padding-bottom: 40px;
+}
+#para {
+	color: black;
+	font-size: 15px;
+}

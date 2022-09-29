@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#showcase{
+	height: 570px;
+	border-bottom: 25px solid #244C66;
+}
+#booking{
+	background-color: #a2a2a2a8;
+	position: relative;
+	width: 80%;
+	height: 450px;
+	top: 100px;
+	left: 10%;
+	border: 2px solid #BDBDBD;
+	border-radius: 4px;
+}
+#booking .passenger{
+	position: relative;
+	left: 308px;
+}
+#booking .item{
+	position: relative;
+	bottom: 21px;
+	left: 550px;
+}
+
+#booking h4{
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+#booking select[type = from]{
+	margin-top: 15px;
+	margin-bottom: 30px;
+	width: 450px;
+	height: 30px;
+}
+#booking select[type = to]{
+	margin-top: 15px;
+    margin-left: 49px;
+    width: 425px;
+    height: 30px;
+
+}
+#ite{
+	display: none;
+}
+#booking input[type = date]{
+    position: relative;
+    margin-left: 502px;
+    margin-top: -82px;
+    width: 425px;
+    height: 30px;
+}
+#booking select[type = passengers]{
+	margin-top: 15px;
+	margin-bottom: 30px;
+	width: 450px;
+	height: 30px;
+
+}
+#booking input[type = weight]{
+	margin-top: 15px;
+	margin-bottom: 30px;
+	width: 450px;
+	height: 30px;
+
+}
+#booking label{
+	display: inline;
+	margin-top: 20px;
+	top: -10px;
+}
+#booking label[type = to]{
+	margin-left: 465px;
+}
+#booking label[type = date]{
+	position: relative;
+    margin-left: 508px;
+    top: -97px;
+	}
+.button_3{
+	margin-left: 380px;
+	height: 30px;
+	width: 200px;
+	background: #e8491d;
+	border: 0;
+	color: #000000;
+}

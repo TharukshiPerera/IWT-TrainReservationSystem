@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*Start main section*/
+nav ul li img {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 10px;
+	top: -15px;
+}
+#basic {
+  height: 1200px;
+}
+
+#showcase {
+  background-color: #D3D3D3;
+  border: 2px solid #BDBDBD;
+	border-radius: 4px;
+  width: 950px;
+  height: 970px;
+  position: relative;
+  top: 130px;
+  right: 30px;
+  left: 200px;
+}
+.main {
+  text-align: center;
+}
+.pswd {
+  text-align: center;
+  background-color: rgba(229, 232, 240, 0.92);
+  border: 2px solid #000000;
+	border-radius: 4px;
+  width: 900px;
+  height: 320px;
+  position: relative;
+  left: -15px;
+  top: 24px;
+}
+#id {
+  position: relative;
+  right: : 10px;
+}
+form ul h4 {
+  font-size: 15px;
+}
+.major {
+	position: relative;
+	left: 120px;
+	text-align: left;
+}
+.name1 {
+	width: 380px;
+  height: 30px;
+}
+.main h1 {
+  font-size: 30px;
+  position: relative;
+  left: 12px;
+}
+#pswd1 {
+  position: relative;
+  left: 20px;
+}
+#pswd1 p {
+  font-size: 11px;
+}
+p span {
+  color: red;
+  font-size: 12px;
+}
+.name, .pass {
+  width: 600px;
+  height: 30px;
+  font-size: 15px;
+}
+.sbtn {
+  position: relative;
+  top: 80px;
+  width: 150px;
+  height: 50px;
+  background-color: #ea4135;
+  font-size: 16px;
+  border: 1px solid #37b5ff;
+  border-radius: 5px;
+}
+form button:hover {
+  background: #ff1100;
+  font-weight: bold;
+  position: relative;
+  left: -3px;
+}
+.user-img {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	bottom: 710px;
+	left: 622px;
+}
+/*FILE CHOESN SECTION*/
+
+#custom-button {
+	position: relative;
+	bottom: 690px;
+	left: 624px;
+	padding: 10px;
+	color: white;
+	background-color: #009578;
+	border: 1px solid #000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#custom-button:hover {
+	background-color: #00b28f;
+}
+#custom-text {
+	margin-left: 10px;
+	font-family: sans-serif;
+	color: #000;
+	position: relative;
+	bottom: 680px;
+	left: 618px;
+}
+.profile {
+	position: relative;
+	bottom: 700px;
+	left: 633px;
+	font-weight: bold;
+}
+
+/*End main section*/
+
+/*Bootstrap break points
+
+Extra small (xl) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) {...}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) {...}
+
+Large (lg) devices (deesktops, 992px and up)
+@media (min-width: 992px) {...}
+
+Extra (xl) large devices (large desktop, 1200px and up)
+@media (min-width: 1200px) {...}
+*/

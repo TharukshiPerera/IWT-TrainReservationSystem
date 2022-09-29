@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<title>Island Express | Booking</title>
+		<link rel="icon" href="../img/logo.png">
+		<link rel="stylesheet" href="../css/main.css">
+		<link rel="stylesheet" href="../css/booking.css">
+		<script src="../java/booking.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+			<div id="branding">
+			<h1><span class="highlight">Island</span>Express</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li class="current"><a href="booking.html">Booking</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contactus.html">ContactUs</a></li>
+				<li><a href="signin.html"><button type="signIn" class="button_1">SignIn</button></a></li>
+				<li><a href="login.html"><button type="logIn" class="button_2">Login</button></a></li>
+			</ui>
+		</nav>
+		</div>
+		</header>
+	<section id="showcase">
+		<section id="booking">
+			<div class="container">
+				<h4>Train Ticket Booking</h4>
+				<form>
+					<label type="from">From</label>
+					<label type="to">To</label><br/>
+					<select type="from">
+						<option>Select</option>
+						<option>Colombo</option>
+						<option>Maradana</option>
+						<option>Gampaha</option>
+						<option>Anuradhapura</option>
+						<option>Polgahawela</option>
+						<option>Badulla</option>
+						<option>Mannar</option>
+					</select>
+					<select type="to">
+						<option>Select</option>
+						<option>Colombo</option>
+						<option>Maradana</option>
+						<option>Gampaha</option>
+						<option>Anuradhapura</option>
+						<option>Polgahawela</option>
+						<option>Badulla</option>
+						<option>Mannar</option>
+					</select><br/>
+					<div class="passenger">
+						<input type="radio" name="item" onload="pOri(0)" onclick="pOri(0)" id="passenger" checked>Passenger</div>
+					<div class="item">
+						<input type="radio" name="item" onload="pOri(1)" onclick="pOri(1)" id="item">Item</div>
+					<section id="pass">
+						<label type="passengers">How many Passengers</label><br/>
+						<select type="passengers">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						</select>
+					</section>
+					<section id="ite">
+						<label type="weight">Weight(Kg)</label><br/>
+						<input type="weight">						
+					</section>
+					<label type="date">Date</label><br/>
+					<input type="Date">
+					<button type="calculate" class="button_3">Calculate</button><br/>
+					<p><a href="timetable.html">Go to Time table</a></p>
+					<p1><a href="helps.html">Helps</a></p1>
+				</form>
+			</div>
+		</section>
+	</section>
+	<footer>
+		<section id="footer">
+			<div class="container">			
+				<a href="#">info@islandexpress.com</a>
+				<a href="#">support@islandexpress.com</a>
+				<p1>+94 XX XXX XX XX</p1>
+				<div class="socialmedia">
+					<a href="#">
+						<img src="../img/facebook.png"></a>
+					<a href="#">
+						<img src="../img/linkedin.png"></a>
+					<a href="#">
+						<img src="../img/twitter.png"></a>
+					<a href="#">
+						<img src="../img/whatsapp.png"></a>
+				<div class="payment">
+					<img src="../img/payment.png"></a>
+				</div>
+				</div>
+				<p>Copyright 2019 All Rights Reserved.</p>
+			</div>
+		</section>
+	</footer>
+</body>
+</html>

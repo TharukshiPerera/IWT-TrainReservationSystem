@@ -1,0 +1,77 @@
+/* Global */
+.container{
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+}
+nav ul li img {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 10px;
+	top: -15px;
+}
+#showcase{
+	min-height: 500px;
+	background: url('../img/bac.png') no-repeat 0-400px;
+	background-position: center;
+	background-size: 2100px;
+	background-clip: content-box;
+	border-bottom: 1px solid #e1fcff;
+}
+#showcase h1{
+    margin-top:40px;
+  }
+.section {
+  height: 520px;
+}
+.userdetails {
+	position: relative;
+	margin-left: 20%;
+	top: 110px;
+	background: #d3d3d3;
+  border: 2px solid #bdbdbd;
+  border-radius: 4px;
+	width: 300px;
+	height: 400px;
+	font-size: 10px;
+}
+.userdetails img{
+	position: relative;
+	margin-left: 32%;
+	top: 10px;
+	width: 100px;
+	height: 100px;
+}
+.userdetails h2{
+	position: relative;
+	margin-left: 38%;
+	top: 10px;
+	font-size: 20px;
+}
+.userdetails p {
+	position: relative;
+	margin-left: 15%;
+	top: 10px;
+	font-size: 13px;
+}
+.edits {
+	position: relative;
+	top: -250px;
+	margin-left: 50%;
+}
+.edits1 {
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	position: relative;
+	padding-top: 30px;
+}
+.edits li {
+  padding-top: 20px;
+  list-style: none;
+}
+.edits1:hover{
+  color: deepSkyBlue;
+  font-weight:bold;
+}
